@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Blogr landing page</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <nav class="nav">
+                <img src="./images/logo.svg" class="logo">
+                <!-- Nav List -->
+                <div class="nav_list">
+                    <ul class="nav_items">
+                        <li class="nav_link">
+                            <a href="#product">Product</a>
+                        </li>
+                        <li class="nav_link">
+                            <a href="#">Company</a>
+                        </li>
+                        <li class="nav_link">
+                            <a href="#">Connect</a>
+                        </li>
+                        <div class="login">
+                            <a href="#" class="in" id="login">Login</a>
+                            <a href="#" class="up">Sign Up</a>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Hero Section -->
+            <section class="hero__section section">
+                <h1 class="section__title">A modern publishing platform</h1>
+
+                <span class="section__subtitle">Grow your audience and build your online brand</span>
+                <div class="cta">
+                    <a href="#" class="button full">Start for Free</a>
+                    <a href="#" class="button outline">Learn More</a>
+                </div>
+            </section>
+        </div>
+
+        <div class="overlay" id="overlay">
+            <div class="modal" id="modal">
+                <button class="close-btn" id="close-btn">X</button>
+                <div class="login__form
+">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Email...">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Password">
+                    <button>Login</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <section class="main__section section" id="product">
+            <h1 class="section__title"> Designed for the future</h1>
+            <div class="row">
+                <img class="main_image" src="./images/illustration-editor-desktop.svg">
+
+                <div class="main_text">
+                    <div class="col">
+                        <h2 class="text_heading">Introducing an extensible editor</h2>
+                        <p class="text_paragraph">Blogr features an exceedingly intuitive interface which lets you focus
+                            on
+                            one
+                            thing: creating content. The editor supports management of multiple blogs and allows easy
+                            manipulation of embeds
+                            such as images, videos, and Markdown. Extensibility with plugins and themes provide easy
+                            ways to
+                            add
+                            functionality
+                            or change the looks of a blog.</p>
+                    </div>
+                    <div class="col">
+                        <h2 class="text_heading">Robust content management</h2>
+                        <p class="text_paragraph">Flexible content management enables users to easily move
+                            through posts. Increase the usability of your blog by adding customized categories,
+                            sections,
+                            format, or flow. With
+                            this functionality, you’re in full control.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- phone section -->
+    <section class="phone__section section">
+
+        <div class="container">
+            <div class="phone">
+                <img src="./images/illustration-phones.svg" alt="" class="phone_image">
+            </div>
+
+            <div class="row">
+                <h1 class="section__title"> State of the Art Infrastructure</h1>
+                <div class="main_text">
+                    <div class="col">
+                        <p class="text_paragraph">With reliability and speed in mind, worldwide data centers provide the
+                            backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter
+                            where your readers are, keeping your site competitive.</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="main__section section">
+            <div class="row">
+                <img src="./images/illustration-laptop-desktop.svg" alt="" class="main_image">
+
+                <div class="main_text">
+                    <div class="col">
+                        <h2 class="text_heading">Free, open, simple</h2>
+                        <p class="text_paragraph">Blogr is a free and open source application backed by a large
+                            community of helpful developers. It supports features such as code syntax highlighting, RSS
+                            feeds, social media integration, third-party commenting tools, and works seamlessly with
+                            Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+                    </div>
+                    <div class="col">
+                        <h2 class="text_heading">Powerful tooling </h2>
+                        <p class="text_paragraph">Batteries included. We built a simple and straightforward CLI tool
+                            that makes customization and deployment a breeze, but capable of producing even the most
+                            complicated sites.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <img src="./images/logo.svg" alt="" class="logo">
+            <div class="links">
+                <div class="link">
+                    <h3>Product</h3>
+                    <ul>
+                        <li>Overview</li>
+                        <li>Pricing</li>
+                        <li>Marketplace</li>
+                        <li>Features</li>
+                        <li>integrations</li>
+                </div>
+                <div class="link">
+                    <h3>Company</h3>
+                    <ul>
+                        <li>About</li>
+                        <li>team</li>
+                        <li>Blog</li>
+                        <li>Careers</li>
+
+                </div>
+                <div class="link">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li>Contact</li>
+                        <li>Newsletter</li>
+                        <li>Linkedin</li>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+
+</html>
